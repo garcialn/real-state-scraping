@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "real-state-scrape"
+version = "0.1.0"
+description = "Template of web scraping for dynamic pages (applied on real state pricing)"
+authors = ["Lucas NG <garcia.ln@outlook.com>"]
+readme = "README.md"
+packages = [{include = "real_state_scrape"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scrapy = "^2.7.1"
+scrapy-playwright = "^0.0.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
